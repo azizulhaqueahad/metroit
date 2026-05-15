@@ -255,3 +255,34 @@ footer{
     background: #111827;
     color: #94a3b8;
 }
+
+@media(max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #head{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .text h1{
+        font-size: 42px;
+    }
+
+    .image img{
+        width: 250px;
+        height: 320px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+}
