@@ -256,33 +256,29 @@ footer{
     color: #94a3b8;
 }
 
-@media(max-width: 768px){
+@media(max-width: 480px){
 
-    nav{
-        flex-direction: column;
-        gap: 15px;
+    .text h1{
+        font-size: 34px;
+    }
+
+    .text h2{
+        font-size: 18px;
+    }
+
+    .logo{
+        font-size: 24px;
     }
 
     nav ul{
-        flex-wrap: wrap;
-        justify-content: center;
+        gap: 15px;
     }
 
-    #head{
-        flex-direction: column-reverse;
-        text-align: center;
+    .btn{
+        width: 100%;
     }
 
-    .text h1{
-        font-size: 42px;
-    }
-
-    .image img{
-        width: 250px;
-        height: 320px;
-    }
-
-    .buttons{
-        justify-content: center;
+    .project-box{
+        padding: 20px;
     }
 }
