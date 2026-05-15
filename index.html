@@ -3,33 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHAD</title>
+    <title>Ahad Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <nav>
+        <h2 class="logo">AHAD</h2>
+        <ul>
+            <li><a href="#head">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <section id="head">
-        <h3>Hello, I'm</h3>
-        <h1>Azizul Haque Ahad</h1>
-        <p>I’m a student of METRO IT & Japanese Institute</p>
-    </section>
-    <section id="image">
-        <img src="./ahad-photo.jpg" alt="ahad photo" height="250" width="200">
+        <div class="text">
+            <h3>Hello, I'm</h3>
+            <h1>Azizul Haque Ahad</h1>
+            <h2>Student • Beginner Web Designer • Photographer</h2>
+            <p>I love learning web design, photography,videography and building clean websites.</p>
+            <div class="button">
+                <a href="#contact" class="btn">Contact Me</a>
+                <a href="#project" class="btn">My Projects</a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/azizulhaque.ahad"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/a_h_a_d_15/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/azizulhaqueahad"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="ahad-photo.jpg" alt="Ahad Photo">
+        </div>
     </section>
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a student at METRO IT & Japanese Institute, where I study both IT and the Japanese language. I recently started learning web design and enjoy building simple, clean websites as I grow my skills. Alongside my studies, I have a strong passion for photography and videography, which allows me to express creativity and capture meaningful moments. I am always eager to learn new things and improve myself step by step.
+        <p>
+            I am a student at METRO IT & Japanese Institute,
+            where I study IT and Japanese language.
+            I recently started learning web design and
+            enjoy creating simple and beautiful websites.
+            I also love photography and videography because
+            creativity inspires me to capture meaningful moments.
+            Every day I try to improve my skills step by step.
         </p>
     </section>
     <section id="project">
-        <h2>Project</h2>
-        <p>Here are some of my project:</p>
-        <ul>
-            <li>Project 1: Still learning HTML</li>
-        </ul>
+        <h2>Projects</h2>
+        <div class="project-part">
+            <div class="project-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>HTML Portfolio</h3>
+                <p>My first beginner portfolio website using HTML & CSS.</p>
+            </div>
+            <div class="project-box">
+                <i class="fa-solid fa-camera"></i>
+                <h3>Photography</h3>
+                <p>I capture nature, people and creative moments.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skill">
+        <h2>Skills</h2>
+        <div class="skills-section">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="line">
+                    <div class="fill html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="line">
+                    <div class="fill css"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Photography</p>
+                <div class="line">
+                    <div class="fill photo"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Videography</p>
+                <div class="line">
+                    <div class="fill video"></div>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Call: 01309404248</p>
-        <p>Email: <a href="mailto:azizulhaqueahad15@gmail.com">azizulhaqueahad15@gmail.com</a></p>
+        <h2>Contact Me</h2>
+        <p><i class="fa-solid fa-phone"></i>+8801309404248</p>
+        <p><i class="fa-solid fa-envelope"></i>
+            <a href="mailto:azizulhaqueahad15@gmail.com">azizulhaqueahad15@gmail.com</a>
+        </p>
     </section>
+    <footer>
+        <p>© 2026 Azizul Haque Ahad | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
