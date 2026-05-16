@@ -255,3 +255,21 @@ footer{
     background: #111827;
     color: #94a3b8;
 }
+
+.skill-dropdown li {
+    width: 100%;
+}
+
+.skill-dropdown li a {
+    display: block;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+.skill-dropdown li a:hover {
+    background-color: #1f2937; 
+}
+
+nav ul li.dropdown:hover .skill-dropdown {
+    display: block;
+}
