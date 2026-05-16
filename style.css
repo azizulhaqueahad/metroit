@@ -344,3 +344,74 @@ nav ul li.dropdown:hover .skill-dropdown {
     --angle: 360deg;
   }
 }
+
+@media (max-width: 768px) {
+    nav, section, #head {
+        padding: 40px 5%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
+    nav ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-dropdown {
+        position: static;
+        box-shadow: none;
+        background-color: #111827;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    #head {
+        flex-direction: column-reverse;
+        gap: 50px;
+        text-align: center;
+        min-height: auto;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .button {
+        justify-content: center;
+    }
+
+    .social {
+        margin-top: 30px;
+    }
+
+    .profile {
+        width: 260px;
+        height: 325px;
+    }
+
+    section h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+
+    .project-part {
+        gap: 25px;
+    }
+
+    .project-box {
+        width: 100%;
+    }
+}
